@@ -1,0 +1,15 @@
+# Screen settings
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+# Colors
+WHITE = (255, 255, 255)
+PLAYER_COLOR = (0, 128, 255)
+BLACK = (0, 0, 0)
+
+# Player properties
+PLAYER_WIDTH = 64
+PLAYER_HEIGHT = 64
+
+# FPS
+FPS = 60
