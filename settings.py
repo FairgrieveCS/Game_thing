@@ -13,3 +13,4 @@ PLAYER_HEIGHT = 64
 
 # FPS
 FPS = 60
+

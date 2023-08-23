@@ -16,7 +16,7 @@ while running:
         if event.type == QUIT:
             running = False
 
-    # Clear screen     
+    # Clear screen
     screen.fill(WHITE)
 
     # Draw here
