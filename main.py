@@ -1,16 +1,8 @@
 import pygame
+from settings import *
 from pygame.locals import *
 
 pygame.init()
-
-# Constraints
-SCREEN_WIDTH = 1280
-SCREEN_HEIGHT = 720
-FPS = 60
-
-# Colors
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
 
 # Set up screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -24,7 +16,7 @@ while running:
         if event.type == QUIT:
             running = False
 
-    # Clear screen        
+    # Clear screen     
     screen.fill(WHITE)
 
     # Draw here
